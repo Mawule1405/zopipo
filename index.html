@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HELOU Komlan Mawulé - Développeur Full Stack & Ingénieur Informatique</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">HELOU Komlan Mawulé</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Compétences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Étudiant Ingénieur en Informatique</span>
+                </div>
+                <h1 class="hero-title">
+                    Salut, je suis <span class="highlight">HELOU Komlan Mawulé</span>
+                </h1>
+                <p class="hero-subtitle">Développeur Full Stack & Futur Ingénieur en Conception Informatique</p>
+                <p class="hero-description">
+                    Ancien enseignant de mathématiques reconverti dans l'informatique. Actuellement en 3ème année 
+                    de cycle ingénieur à l'Institut Africain d'Informatique de Libreville. Passionné par le 
+                    développement web et les technologies modernes.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <strong>2025</strong>
+                        <span>Diplôme d'ingénieur</span>
+                    </div>
+                    <div class="stat-item">
+                        <strong>8+</strong>
+                        <span>Projets réalisés</span>
+                    </div>
+                    <div class="stat-item">
+                        <strong>5+</strong>
+                        <span>Langages maîtrisés</span>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-code"></i>
+                        Voir mes projets
+                    </a>
+                    <a href="https://github.com/Mawule1405" class="btn btn-secondary" target="_blank">
+                        <i class="fab fa-github"></i> 
+                        GitHub
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-circle">
+                    <img src="assets/images/image.png" alt="Photo de profil HELOU Komlan Mawulé" class="profile-img">
+                    <div class="profile-overlay">
+                        <div class="profile-info">
+                            <i class="fas fa-calculator"></i>
+                            <span>Ex-Enseignant de Maths</span>
+                        </div>
+                        <div class="profile-info">
+                            <i class="fas fa-laptop-code"></i>
+                            <span>Développeur Full Stack</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about" class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Mon parcours</h2>
+            <div class="about-content">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Enseignant de Mathématiques</h3>
+                            <p class="timeline-period">Avant 2022</p>
+                            <p>Transmission des connaissances mathématiques avec passion. Cette expérience m'a donné 
+                            une approche pédagogique et analytique qui enrichit aujourd'hui ma pratique du développement.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Reconversion en Informatique</h3>
+                            <p class="timeline-period">2022</p>
+                            <p>Décision de me reconvertir dans l'informatique, domaine qui combine logique mathématique 
+                            et créativité technologique. Apprentissage autodidacte puis formation formelle.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item active">
+                        <div class="timeline-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Institut Africain d'Informatique</h3>
+                            <p class="timeline-period">2022 - 2025</p>
+                            <p>Actuellement en 3ème année de cycle ingénieur en conception informatique à Libreville. 
+                            Spécialisation en développement web et génie logiciel.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item future">
+                        <div class="timeline-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Ingénieur Informatique</h3>
+                            <p class="timeline-period">2025</p>
+                            <p>Objectif : Obtenir mon diplôme d'ingénieur et contribuer à l'innovation technologique 
+                            en Afrique et dans le monde.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <i class="fas fa-brain"></i>
+                        <h4>Approche Analytique</h4>
+                        <p>Mon background en mathématiques me donne une approche structurée et logique du développement.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-users"></i>
+                        <h4>Pédagogie</h4>
+                        <p>Capacité à expliquer des concepts complexes de manière simple et accessible.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h4>Innovation</h4>
+                        <p>Passion pour les nouvelles technologies et l'innovation dans le développement logiciel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Mes compétences techniques</h2>
+            <div class="skills-intro">
+                <p>Compétences acquises lors de ma formation à l'Institut Africain d'Informatique et à travers mes projets personnels</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-palette"></i>
+                        <h3>Frontend Development</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-js-square"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-code"></i>
+                                <span>TypeScript</span>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="75"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Backend Development</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-java"></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-php"></i>
+                                <span>PHP</span>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Bases de Données</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-elephant"></i>
+                                <span>PostgreSQL</span>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-database"></i>
+                                <span>MySQL</span>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Outils & DevOps</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-docker"></i>
+                                <span>Docker</span>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fab fa-git-alt"></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <i class="fas fa-code"></i>
+                                <span>IDEs</span>
+                            </div>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tools-section">
+                <h3>Environnements de développement</h3>
+                <div class="tools-grid">
+                    <div class="tool-item">
+                        <i class="fas fa-code"></i>
+                        <span>IntelliJ IDEA</span>
+                    </div>
+                    <div class="tool-item">
+                        <i class="fas fa-code"></i>
+                        <span>PyCharm</span>
+                    </div>
+                    <div class="tool-item">
+                        <i class="fas fa-code"></i>
+                        <span>WebStorm</span>
+                    </div>
+                    <div class="tool-item">
+                        <i class="fas fa-code"></i>
+                        <span>VS Code</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mes projets académiques et personnels</h2>
+            <div class="projects-intro">
+                <p>Portfolio de projets développés durant ma formation et en autonomie</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Mawule1405/sglp-app" class="project-link" target="_blank" title="Voir le code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Système de Gestion des Libertés Publiques</h3>
+                            <span class="project-status">Projet Principal</span>
+                        </div>
+                        <p>Application web complète pour la gestion des libertés publiques avec interface administrative moderne et API robuste. Développée avec une architecture full-stack.</p>
+                        <div class="project-features">
+                            <span><i class="fas fa-check"></i> Interface administrative</span>
+                            <span><i class="fas fa-check"></i> API REST</span>
+                            <span><i class="fas fa-check"></i> Base de données relationnelle</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag primary">TypeScript</span>
+                            <span class="tech-tag secondary">Java</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">HTML</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Mawule1405/projet-de-soutenance" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Projet de Soutenance</h3>
+                            <span class="project-status academic">Académique</span>
+                        </div>
+                        <p>Projet de fin d'études démontrant mes compétences acquises en développement full stack avec Java et TypeScript.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag secondary">Java</span>
+                            <span class="tech-tag primary">TypeScript</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">HTML</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Mawule1405/gestion_des_mangroves" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Gestion des Mangroves</h3>
+                            <span class="project-status environmental">Environnemental</span>
+                        </div>
+                        <p>Application Python pour la gestion et le suivi des écosystèmes de mangroves avec analyse de données environnementales.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag python">Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Mawule1405/projet_opn" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Site Web OPN</h3>
+                            <span class="project-status web">Web</span>
+                        </div>
+                        <p>Développement d'un site web institutionnel moderne pour l'OPN avec interface responsive et backend Python.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag python">Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Mawule1405/proto_mbg_front" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Proto MBG Frontend</h3>
+                            <span class="project-status frontend">Frontend</span>
+                        </div>
+                        <p>Interface frontend moderne développée en TypeScript avec design responsive et architecture componentielle.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag primary">TypeScript</span>
+                            <span class="tech-tag">SCSS</span>
+                            <span class="tech-tag">HTML</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-hdd"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Mawule1405/utilisation_de_volume" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Utilisation de Volume</h3>
+                            <span class="project-status devops">DevOps</span>
+                        </div>
+                        <p>Application PHP avec Docker pour la gestion et le monitoring des volumes de stockage avec containerisation.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag docker">Docker</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-moi</h2>
+            <div class="contact-intro">
+                <p>Intéressé par une collaboration, un stage ou simplement pour échanger sur les technologies ? N'hésitez pas à me contacter !</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3>HELOU Komlan Mawulé</h3>
+                        <p class="contact-title">Étudiant Ingénieur en Informatique</p>
+                        <p class="contact-school">Institut Africain d'Informatique - Libreville</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fab fa-github"></i>
+                                <div>
+                                    <strong>GitHub</strong>
+                                    <a href="https://github.com/Mawule1405" target="_blank">@Mawule1405</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <strong>Email</strong>
+                                    <a href="mailto:helkmawule@gmail.com">helkmawule@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <strong>Localisation</strong>
+                                    <span>Libreville, Gabon</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-calendar"></i>
+                                <div>
+                                    <strong>Disponibilité</strong>
+                                    <span>Ouvert aux opportunités de stage</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="https://github.com/Mawule1405" class="social-link" target="_blank" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-link" title="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        
+                            <a href="mailto:helkmawule@gmail.com" class="social-link" title="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-section">
+                    <div class="contact-form">
+                        <h3>Envoyez-moi un message</h3>
+                        <form id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Nom complet</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Adresse email</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Sujet</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-paper-plane"></i>
+                                Envoyer le message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h4>HELOU Komlan Mawulé</h4>
+                    <p>Étudiant Ingénieur en Informatique | Ex-Enseignant de Mathématiques</p>
+                    <p>Institut Africain d'Informatique - Libreville, Gabon</p>
+                </div>
+                <div class="footer-links">
+                    <a href="https://github.com/Mawule1405" target="_blank">GitHub</a>
+                    <a href="#about">À propos</a>
+                    <a href="#projects">Projets</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 HELOU Komlan Mawulé. Développé avec ❤️ et beaucoup de café ☕</p>
+                <p>De l'enseignement des maths au code informatique - Un parcours passionnant</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Ajoutez ceci avant la fermeture de </body> -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>
